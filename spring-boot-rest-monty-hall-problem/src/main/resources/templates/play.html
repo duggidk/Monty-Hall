@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+	<style>
+		table, th, td {
+  		border: 1px solid black;
+		}
+	</style>	
+    <title>Getting Started: Gaming 1...</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body> 
+    
+    
+    <p th:text=" 'Win Percentage: ' + ${percentageMatch} + '%'" />   
+	
+	<div  th:if="${iterations <= 1000}">
+	<table style="width:100%">		
+    	<tr th:each="row: ${matrix}">
+        	<th th:each="value: ${row}" th:utext= "${value}" />
+    	</tr>
+	</table>  	
+	</div>
+	
+	
+</body>
+</html>
