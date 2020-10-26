@@ -10,9 +10,8 @@ http://localhost:8080/api/play/10/y/    for choice: pass y or n
 
 Win Percentage: 38.0%
 
-Iteration	Door 0	Door 1	Door 2	Original	Selected	Win
-1	        🐐	    🚓	    🐐	     2	       1	    true
-2	        🚓	    🐐	    🐐	     1	       1	    false
+Iteration	Door 0	Door 1	Door 2	Original	Selected	Win                                                                                  1	        🐐	    🚓	    🐐	     2	       1	    true                                                                                 
+2	         🚓	     🐐	     🐐	      1	        1	     false
 3	        🐐	    🚓	    🐐	     2	       1	    true
 4	        🐐  	  🐐	    🚓	     0	       2	    true
 5	        🐐	    🚓	    🐐	     0	       2	    false
